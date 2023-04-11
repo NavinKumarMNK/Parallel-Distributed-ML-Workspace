@@ -1,4 +1,4 @@
-Usage
+Distributed Environment Setup
 =====
 
 Installation
