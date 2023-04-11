@@ -1,4 +1,4 @@
-# Welcome to Distibuted-ML-Workspace
+# Welcome to Distributed-ML-Workspace
 ## Ray Distributed Made Easy
 
 Ray is an open source framework for building distributed and parallel applications. It was developed by the RISELab at UC Berkeley and is now maintained by the Ray team at Anyscale. 
@@ -9,14 +9,12 @@ With Ray, you can easily scale your Python applications to run on a cluster of m
 
 **para-dist-workspace** (Distributed ML) is a Workspace Documented for Deep Learning, Climate Modelling, Molecular Dynamics, and other parallel & distributed applications
 that creates a procedure of setting up and running the Ray Distributed Framework.
-[Open Food Facts database](https://world.openfoodfacts.org/) and offers
-a *simple* and *intuitive* API.
 
 Check out the [usage](usage) section for further information, including how to [install](usage#installation) the project.
 
 !!! note
 
-    This project is under active development.
+    This Documentation is under active development.
 
 
 ## Features
@@ -33,11 +31,11 @@ Check out the [usage](usage) section for further information, including how to [
 
 To get started with Distributed Environment , you can follow these steps:
 
-**1.** Your Can view Our Installation Documentation [here]() and run the scripts to install you environment
+**1.** Your Can view Our Installation Documentation and run the scripts to install you environment
 
-**2.** View our Examples [here]() and run the scripts to get started with Ray Distributed Framework
+**2.** View our Examples and run the scripts to get started with Ray Distributed Framework
 
-**3.** When got Stuck with the error, you can view our Troubleshooting [here]() and run the scripts to get started with Ray Distributed Framework
+**3.** When got Stuck with the error, you can view our  and run the scripts to get started with Ray Distributed Framework
 
 !!! Warning
 
@@ -59,7 +57,7 @@ To get started with Distributed Environment , you can follow these steps:
 
 !!! Note
     
-        By default cuda gets installed with the installation of pytorch, but after the release of the new version of pytorch i.e `PyTorch 2.0` release, all the version is by default installs the pycuda for Pytorch, so you need to install the cuda version manually to run cuda programming for other needs/
+        By default cuda gets installed with the installation of pytorch, but after the release of the new version of pytorch i.e `PyTorch 2.0` release, all the version is by default installs the pycuda for Pytorch, so you need to install the cuda version manually to run cuda programming for other needs.
         More information about the cuda version can be found [here](https://pytorch.org/get-started/previous-versions/)
 
 
