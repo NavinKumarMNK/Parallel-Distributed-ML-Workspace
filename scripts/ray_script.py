@@ -2,8 +2,12 @@ import os
 from multiprocessing.pool import ThreadPool
 
 def run_script(ip, username, password):
-    os.system(f'sshpass -p {password} scp -o StrictHostKeyChecking=no ray_script.sh {username}@{ip}:~/')
-    os.system(f'sshpass -p {password} ssh -o StrictHostKeyChecking=no {username}@{ip} "chmod +x ~/ray_script.sh && ~/ray_script.sh"')
+    if(ip=='172.16.96.60'):
+        os.system(f'sshpass -p {password} scp -o StrictHostKeyChecking=no ray_script1.sh {username}@{ip}:~/')
+        os.system(f'sshpass -p {password} ssh -o StrictHostKeyChecking=no {username}@{ip} "chmod +x ~/ray_script1.sh && ~/ray_script1.sh"')
+    else:
+        os.system(f'sshpass -p {password} scp -o StrictHostKeyChecking=no ray_script.sh {username}@{ip}:~/')
+        os.system(f'sshpass -p {password} ssh -o StrictHostKeyChecking=no {username}@{ip} "chmod +x ~/ray_script.sh && ~/ray_script.sh"')
 
 if __name__ == '__main__':
     # List of IP addresses to run the script on
